@@ -5,7 +5,7 @@
 int first_last_number(const std::string & str){
 	int first = 0;
 	int last = 0;
-    int isFirst = true;
+    bool isFirst = true;
 	for(auto && ch : str){
 		if(std::isdigit(ch)){
 			if(isFirst) 
